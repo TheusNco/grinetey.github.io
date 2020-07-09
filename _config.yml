@@ -16,7 +16,7 @@
 theme: jekyll-theme-so-simple
 # remote_theme: mmistakes/so-simple-theme
 skin: "/assets/css/skins/default.css"
-locale: pt-br
+locale: en-US
 title: "Grine Tey"
 description: "é uma organização dedicada a promover o software de código aberto ou software livre, sem fins lucrativos"
 baseurl: # the subpath of your site, e.g. "/blog"
