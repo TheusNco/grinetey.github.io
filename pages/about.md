@@ -1,14 +1,15 @@
 ---
 layout: page
-title: About
+title: Sobre
 permalink: /about/
 feature-img: "assets/img/pexels/circuit.jpeg"
 tags: [About, Archive]
 ---
 
-Type on Strap is based on Type Theme, a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
+## Grine Tey 
 
-Head over to the [theme's documentation](https://github.io/sylhare/Type-on-Strap) for much more information about Type on Strap or to install this theme on your own Jekyll site.
+    Somos uma organização que tem como a paixão o desenvolvimento de sistemas e Open Source, buscamos sempre contribuir com projetos e na criação de projetos e sistemas para internet 
 
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
+    
+
  
