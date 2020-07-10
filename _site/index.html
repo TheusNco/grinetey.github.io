@@ -1,170 +1,276 @@
 <!DOCTYPE html>
 <!--
-    So Simple Jekyll Theme 3.2.0
-    Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
-    Free for personal and commercial use under the MIT license
-    https://github.com/mmistakes/so-simple-theme/blob/master/LICENSE
+    Type on Strap jekyll theme v2.2.4
+    Copyright 2016-2019 Sylhare
+    Theme free for personal and commercial use under the MIT license
+    https://github.com/sylhare/Type-on-Strap/blob/master/LICENSE
 -->
-<html lang="en-US" class="no-js">
+<html lang="en">
   <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  
+    <!-- Main JS (navbar.js, katex_init.js and masonry_init.js)-->
+    <script defer src="/assets/js/main.min.js"></script>
     
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="http://localhost:4000/">
+
+    <!-- RSS -->
+    <link rel="alternate" type="application/atom+xml" title="Grine Tey" href="http://localhost:4000/feed.xml"/>
+    
+    
+
+    <!-- KaTeX 0.8.3 -->
+    <!-- if you have any issue check https://github.com/KaTeX/KaTeX -->
+    
+    <script src="/assets/js/vendor/katex.min.js"></script>
+    
+
+    <!-- Google Analytics -->
+    
+
+    <!-- seo tags -->
     <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Grine Tey | é uma organização dedicada a promover o software de código aberto ou software livre, sem fins lucrativos</title>
+<title>Grine Tey | Grine Tey, uma organização de projetos open source, criando e contribuindo com novos projetos</title>
 <meta name="generator" content="Jekyll v4.1.1" />
 <meta property="og:title" content="Grine Tey" />
-<meta name="author" content="Endriw Villa" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="é uma organização dedicada a promover o software de código aberto ou software livre, sem fins lucrativos" />
-<meta property="og:description" content="é uma organização dedicada a promover o software de código aberto ou software livre, sem fins lucrativos" />
+<meta name="description" content="Grine Tey, uma organização de projetos open source, criando e contribuindo com novos projetos" />
+<meta property="og:description" content="Grine Tey, uma organização de projetos open source, criando e contribuindo com novos projetos" />
 <link rel="canonical" href="http://localhost:4000/" />
 <meta property="og:url" content="http://localhost:4000/" />
 <meta property="og:site_name" content="Grine Tey" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Grine Tey" />
-<meta name="twitter:site" content="@" />
-<meta name="twitter:creator" content="@Endriw Villa" />
 <script type="application/ld+json">
-{"author":{"@type":"Person","name":"Endriw Villa"},"url":"http://localhost:4000/","headline":"Grine Tey","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/gt.jpg"},"name":"Endriw Villa"},"name":"Grine Tey","description":"é uma organização dedicada a promover o software de código aberto ou software livre, sem fins lucrativos","@type":"WebSite","@context":"https://schema.org"}</script>
+{"url":"http://localhost:4000/","name":"Grine Tey","headline":"Grine Tey","description":"Grine Tey, uma organização de projetos open source, criando e contribuindo com novos projetos","@type":"WebSite","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
-
-  
-
-  <script>
-    /* Cut the mustard */
-    if ( 'querySelector' in document && 'addEventListener' in window ) {
-      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
-    }
-  </script>
-
-  <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="stylesheet" href="/assets/css/skins/default.css">
-  
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i|Lora:400,400i,700,700i">
-  <link rel="alternate" type="application/atom+xml" title="Grine Tey" href="/atom.xml">
-<!-- start custom head snippets -->
-
-<!-- insert favicons. use http://realfavicongenerator.net/ -->
-
-<!-- end custom head snippets -->
-
+    <meta property="og:image" content="http://localhost:4000/assets/img/pexels/triangular.jpeg " />
 </head>
 
+  <body>
+    <header class="site-header">
 
-  <body class="layout--home  ">
-    <nav class="skip-links">
-  <h2 class="screen-reader-text">Skip links</h2>
-  <ul>
-    <li><a href="#primary-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
-    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
-    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
-  </ul>
-</nav>
+    <!-- Logo and title -->
+	<div class="branding">
+        
+		<a href="/">
+			<img alt="logo img" class="avatar" src="/assets/img/triangle.jpg" />
+		</a>
+        
 
-    
-  <div class="navigation-wrapper">
-    <a href="#menu-toggle" id="menu-toggle">Menu</a>
-    <nav id="primary-nav" class="site-nav animated drop">
-      <ul><li><a href="/">Home</a></li></ul>
-    </nav>
-  </div><!-- /.navigation-wrapper -->
-
-
-    <header class="masthead">
-  <div class="wrap">
-    
-      <a href="/" class="site-logo" rel="home" title="Grine Tey">
-        <img src="/assets/img/gt.jpg" class="site-logo-img animated fadeInDown" alt="Grine Tey">
+		<h1 class="site-title">
+			<a aria-label="Grine Tey" href="/">
+        Grine Tey
       </a>
-    
-    
-    
-      
-        <h1 class="site-title animated fadeIn"><a href="/">Grine Tey</a></h1>
-      
-      <p class="site-description animated fadeIn" itemprop="description">é uma organização dedicada a promover o software de código aberto ou software livre, sem fins lucrativos</p>
-    
-  </div>
-</header><!-- /.masthead -->
+		</h1>
+	</div>
 
+    <!-- Toggle menu -->
+    <nav class="clear">
+    <a aria-label="pull" id="pull" class="toggle" href="#">
+    <i class="fa fa-bars fa-lg"></i>
+    </a>
 
-    <main id="main" class="main-content" aria-label="Content">
-  <article>
-    
-
-    <div class="page-wrapper">
-      <header class="page-header">
-        
-        
-          <h1 id="page-title" class="page-title"></h1>
-        
-      </header>
-      <div class="page-content">
+    <!-- Menu -->
+    <ul class="hide">
         
 
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Sobre" title="Sobre" href="/about/">
+                     Sobre 
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Procurar" title="Procurar" href="/search/">
+                     <i class="fa fa-search" aria-hidden="true"></i>
+                    
+                </a>
+            </li>
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Tags" title="Tags" href="/tags/">
+                     <i class="fa fa-tags" aria-hidden="true"></i>
+                    
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+    </ul>
 
-<div class="entries-list">
+	</nav>
+</header>
 
-<article class="entry h-entry">
-  <header class="entry-header">
-    <h3 class="entry-title p-name">
-      
-        <a href="/Primeiro-Post/" rel="bookmark">Sobre A Grine Tey
-</a>
-      
-    </h3>
-    
-  </header>
-  
-    <div class="entry-excerpt p-summary">
-      
-        <p>Grine Tey é uma organização criada com o intuito de contribuir com projetos Open Source, e também a criação de projetos, unindo pessoas que adoram o mundo do Open Source, se vc tiver interesse em participar dos projetos, entrar em contato com o email</p>
-<h2 id="endriw_villaicloudcom">endriw_villa@icloud.com</h2>
+    <div class="content">
+      <div class="home">
 
-      
+    <div id="main" class="call-out"
+         style="background-image: url('/assets/img/pexels/triangular.jpeg')">
+        <h1> Grine Tey </h1>
     </div>
-  
-  
-    <footer class="entry-meta">
-      
-      <time class="entry-date dt-published" datetime="2020-07-08T00:00:00-03:00">July 8, 2020
-  </time>
-    </footer>
-  
-</article>
+
+    <div class="posts">
+    
+    <div class="post-teaser">
+        
+        <span>
+          <header>
+            <h1>
+              <a aria-label="Primeiro Post" class="post-link" href="/2020/07/09/primeiro-post.html">
+                Primeiro Post
+              </a>
+            </h1>
+            
+
+
+<div class="post-info"><a href="https://github.com/trincazul" target="_blank">
+      <img src="https://avatars2.githubusercontent.com/u/816965?s=460&v=4">
+    
+    <p class="meta">
+      Endriw Villa - July 9, 2020
+    </p></a></div>
+
+          </header>
+          
+              <div class="excerpt">
+                  
+                     Grine Tey é uma organização criada com o intuito de contribuir com projetos Open Source, e também a criação de projetos, unindo pessoas que adoram o mundo do Open Source, se vc tiver interesse em participar dos projetos, entrar em contato com o email
+
+                  
+              </div>
+          
+      </span>
+    </div>
+    
 </div>
 
 
-        
-      </div>
+
+
+
+</div>
+
     </div>
-  </article>
-</main>
+    <footer class="site-footer">
+    <p class="text">
+        Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/grinetey">Type on Strap</a>
+</p>
+            <div class="footer-icons">
+                <ul>
+                <!-- Social icons from Font Awesome, if enabled -->
+                
+<li>
+    <a feed.xml href="feed.xml"
+       title="Follow RSS feed">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+        </span>
+    </a>
+</li>
 
 
-    <footer id="footer" class="site-footer">
-  <!-- start custom footer snippets -->
 
-<!-- end custom footer snippets -->
-<div class="social-icons"><a class="social-icon" href="https://github.com/grinetey"><i class="fab fa-github-square fa-2x" title="GitHub"></i></a></div><div class="copyright">
-    
-      <p>&copy; 2020 Grine Tey. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/mmistakes/so-simple-theme" rel="nofollow">So Simple</a>.</p>
-    
-  </div>
+<li>
+    <a href="mailto:endriw_villa@icloud.com" title="Email">
+		<span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+        </span>
+    </a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+    <a href="https://github.com/grinetey" title="Follow on GitHub">
+		<span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+        </span>
+    </a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </ul>
+            </div>
 </footer>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script src="/assets/js/main.min.js"></script>
-  <script src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
 
 
   </body>
-
 </html>

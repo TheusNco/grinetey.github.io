@@ -1,16 +1,4 @@
-# Sample Authors
-# Remove file or replace with your own
-
-Billy Rick:
-  name: Endriw Villa
-  picture: /images/bio-photo-2.jpg
-  twitter: "@drewvilla"
-  links:
-    - title: Twitter
-      url: https://twitter.com/billyrick
-      icon: fab fa-twitter-square
-
-Cornelius Fiddlebone:
-  name: Cornelius Fiddlebone
-  picture: /images/bio-photo.jpg
-  twitter: corneliusfiddlebone
+Endriw: # author-id
+  name: "Endriw Villa"
+  avatar: "https://avatars2.githubusercontent.com/u/816965?s=460&v=4"
+  url: "https://github.com/trincazul"
