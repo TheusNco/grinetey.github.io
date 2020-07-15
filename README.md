@@ -363,13 +363,14 @@ title : Portfolio
 {% include portfolio.html %}
 ```
 
+
 #### Portfolio posts
 
-You can format the portfolio posts in the `_portfolio` folder using the `post layout`. Here are little explaination on some of the possible feature you can use and what they will do.
+Você pode formatar as postagens do portfólio na pasta `_portfolio` usando o` layout da postagem`. Aqui estão poucas explicações sobre alguns dos recursos possíveis que você pode usar e o que eles farão.
 
-If you decide to use a date, please be sure to use one that can be parsed such as `yyyy-mm-dd`. You can see more format example on the demo posts that are available for the theme:
+Se você decidir usar uma data, certifique-se de usar uma que possa ser analisada como `aaaa-mm-dd`. Você pode ver mais exemplos de formato nas postagens de demonstração disponíveis para o tema:
 
-```yml
+`` yml
 
 ---
 layout: post
